@@ -1,0 +1,8 @@
+https://blog.idrsolutions.com/2015/06/how-to-host-a-maven-artifact-on-github/
+
+
+
+
+
+
+mvn install:install-file -DgroupId=michaelfrancenelson -DartifactId=OpenVierwerFX -Dversion=1.0.1a -Dpackaging=jar -Dfile=C:/Users/eeeki/eclipse-workspace/LightweightJavaUtils/target/LightweightJavaUtils-1.0.1a.jar -DlocalRepositoryPath=C:/Users/eeeki/OneDrive/Documents/maven-repos/maven-repos
