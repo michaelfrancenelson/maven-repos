@@ -1,11 +1,6 @@
 # https://blog.idrsolutions.com/2015/06/how-to-host-a-maven-artifact-on-github/
 # https://blog.idrsolutions.com/2015/06/how-to-use-github-hosted-maven-artifact-in-a-maven-project/
 
-
-# this is the same for all:
-dpath=C:/Users/eeeki/OneDrive/Documents/maven-repos/
-dgroup=michaelfrancenelson
-
 # LightweightJavaUtils
 dprojectpath=C:/Users/eeeki/eclipse-workspace/LightweightJavaUtils/target/
 dartifactid=LightweightJavaUtils
@@ -14,19 +9,18 @@ dversion=1.0.1
 # LighweightBeanIO
 dprojectpath=C:/github/LightweightBeanIO/target/
 dartifactid=LightweightBeanIO
-dversion=1.0.1
+dversion=1.0.6
+bash ./mvn_install_git_commit.sh
+
 
 # RandomUtils
 dprojectpath=C:/Users/eeeki/eclipse-workspace/RandomUtils/target/
 dartifactid=RandomUtils
 dversion=1.0.0
+bash ./mvn_install_git_commit.sh
 
 # SwingUtils
-dprojectpath=C:/Users/eeeki/eclipse-workspace/SwingUtils/
+dprojectpath=C:/Users/eeeki/eclipse-workspace/SwingUtils/target/
 dartifactid=SwingUtils
-dversion=1.0.0
-
-# these are the same for all
-dfile=$dprojectpath$dartifactid-$dversion.jar
-
-mvn install:install-file -DgroupId=$dgroup -DartifactId=$dartifactid -Dversion=$dversion -Dpackaging=jar -Dfile=$dfile -DlocalRepositoryPath=$dpath
+dversion=1.0.3
+bash ./mvn_install_git_commit.sh

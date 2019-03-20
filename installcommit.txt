@@ -1,0 +1,6 @@
+
+# these are the same for all
+dpath=C:/Users/eeeki/OneDrive/Documents/maven-repos/
+dgroup=michaelfrancenelson
+dfile=$dprojectpath$dartifactid-$dversion.jar
+echo $dfile
