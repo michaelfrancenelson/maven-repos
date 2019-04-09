@@ -2,9 +2,9 @@
 # https://blog.idrsolutions.com/2015/06/how-to-use-github-hosted-maven-artifact-in-a-maven-project/
 
 # LightweightJavaUtils
-dprojectpath=C:/Users/eeeki/eclipse-workspace/LightweightJavaUtils/target/
+dprojectpath=C:/github/LightweightJavaUtils/target/
 dartifactid=LightweightJavaUtils
-dversion=1.0.1
+dversion=1.0.2
 
 # LighweightBeanIO
 dprojectpath=C:/github/LightweightBeanIO/target/
