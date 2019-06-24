@@ -4,7 +4,7 @@
 # LightweightJavaUtils
 dprojectpath=C:/github/LightweightJavaUtils/target/
 dartifactid=LightweightJavaUtils
-dversion=1.0.2
+dversion=1.0.3
 
 # LighweightBeanIO
 dprojectpath=C:/github/LightweightBeanIO/target/
@@ -24,3 +24,15 @@ dprojectpath=C:/Users/eeeki/eclipse-workspace/SwingUtils/target/
 dartifactid=SwingUtils
 dversion=1.0.3
 bash ./mvn_install_git_commit.sh
+
+
+# MikeBeanUtils
+dprojectpath=C:/github/MikeBeanUtils/target/
+dartifactid=SwingUtils
+dversion=1.0.3
+bash ./mvn_install_git_commit.sh
+
+
+
+
+
