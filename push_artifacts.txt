@@ -29,8 +29,9 @@ bash ./mvn_install_git_commit.sh
 # MikeBeanUtils
 dprojectpath=C:/github/MikeBeanUtils/target/
 dartifactid=MikeBeanUtils
-dversion=0.1.1
-bash ./mvn_install_git_commit.sh
+dversion=0.1.3-SNAPSHOT
+
+#bash ./mvn_install_git_commit.sh
 
 
 
