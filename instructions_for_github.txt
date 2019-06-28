@@ -1,0 +1,14 @@
+1.  build jars with maven with bash in the project's directory:
+
+mvn package
+
+2.  Copy jars to the proper directory in the maven_repos folder:
+
+main_folder/project_name/version/
+
+3.  Set the correct location of the jar files and the correct artifactid in push_artifacts_txt, paste the project text into bash in the maven_repos directory:
+
+dprojectpath=C:/path/to/target/jars
+
+4.  Paste the relevant code from mvn_install_git_commit.sh
+

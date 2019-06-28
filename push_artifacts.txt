@@ -28,8 +28,8 @@ bash ./mvn_install_git_commit.sh
 
 # MikeBeanUtils
 dprojectpath=C:/github/MikeBeanUtils/target/
-dartifactid=SwingUtils
-dversion=1.0.3
+dartifactid=MikeBeanUtils
+dversion=0.1.1
 bash ./mvn_install_git_commit.sh
 
 
